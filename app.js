@@ -5,7 +5,9 @@ const itemList = [];
 while (addItem !== 'q'){
     switch (addItem) {
         case addItem = 'n':
-            console.log(addItem);
+            addItem = prompt('What would you like to do?')
+            itemList.push(addItem);
+            console.log(itemList);
             break;
         case addItem = 'l':
             console.log('l');
