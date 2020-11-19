@@ -7,7 +7,7 @@ while (addItem !== 'q'){
         case addItem = 'n':
             addItem = prompt('What would you like to do?')
             itemList.push(addItem);
-            console.log(itemList);
+            console.log(`"${itemList}" has been added to the list.`);
             break;
         case addItem = 'l':
             console.log('************************');
