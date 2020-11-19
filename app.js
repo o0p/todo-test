@@ -1,5 +1,5 @@
 let addItem = prompt('Please select action:');
-const itemList = [1,2,3,4,5];
+const itemList = [];
 
 
 while (addItem !== 'q'){
