@@ -5,6 +5,11 @@ const itemList = [];
 
 while (addItem !== 'q'){
    addItem = prompt('Please select action:');
-   console.log(addItem);
+   switch (addItem) {
+       case addItem = 'n':
+           console.log(addItem);
+   }
+
+
     }
 console.log('Quittingg')
