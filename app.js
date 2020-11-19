@@ -1,5 +1,4 @@
 let addItem = prompt('Please select action:');
-console.log(addItem);
 const itemList = [];
 
 
@@ -12,8 +11,10 @@ while (addItem !== 'q'){
            case addItem = 'l':
                console.log('l');
                break;
+               case addItem = 'q':
+                   addItem = 'q';
    }
 
 
     }
-console.log('Quittingg')
+console.log('Quitting')
