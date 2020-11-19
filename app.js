@@ -10,7 +10,11 @@ while (addItem !== 'q'){
             console.log(itemList);
             break;
         case addItem = 'l':
-            console.log('l');
+            console.log('************************');
+            itemList.forEach(function(item, i) {
+                console.log(`${i}: ${item}`);
+            })
+            console.log('************************');
             break;
         case addItem = 'd':
             console.log(addItem);
